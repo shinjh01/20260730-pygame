@@ -1,0 +1,20 @@
+import sys
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import Qt, QDateTime
+from PyQt5.QtGui import QFont
+def __init__(self):
+    super().__init__()
+
+    self.joint_values = [0, 0, 0, 0, 0, 0]
+    self.joint_sliders = []
+    self.joint_value_labels = []
+    self.monitor_joint_labels = []
+
+    self.gripper_value = 0
+    self.emergency_active = False
+
+    self.teaching_positions = {
+        ...
+    }
+
+    self.init_ui()

@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "김철수",
+  "age": 30,
+  "is_active": true,
+  "skills": ["Python", "JavaScript", "JSON"],
+  "contact": {
+    "email": "chulsu@example.com",
+    "phone": "010-1234-5678"
+  }
+}
